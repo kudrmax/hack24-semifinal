@@ -13,7 +13,7 @@ const MainPage = () => {
 		setIsLoading(true);
 		axios.get('http://127.0.0.1:8000/api/add_parameter/')
 		.then(({data}) => {setGeneratorParametrs(data); setIsLoading(false);})
-		// .catch(e => {console.log(e); setIsLoading(false);});
+		.catch(e => {console.log(e); setIsLoading(false);});
 	}
 
 
