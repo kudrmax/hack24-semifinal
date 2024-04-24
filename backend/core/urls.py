@@ -1,6 +1,7 @@
 from django.urls import path
 from .views import front
+from django.urls import re_path
 
 urlpatterns = [
-    path('', front, name='blog-home'),
+    re_path(r".*", front, name='front')
 ]
