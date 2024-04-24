@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import AuthorizationPage from "./pages/AuthorizationPage";
+import MainPage from "./pages/AuthorizationPage";
 import { Route, Routes } from "react-router-dom"
 // import AddParametr from "./pages/AddParametr";
 
@@ -31,7 +32,7 @@ function App() {
 		// <h1>Генератор комбинационных схем</h1>
 		<Routes>
 			<Route path="/" element={<AuthorizationPage/>} />
-			{/* <Route path="/add" element={<AddParametr/>}/> */}
+			<Route path="/main" element={<MainPage/>}/>
 		</Routes>
     // </div>
   );

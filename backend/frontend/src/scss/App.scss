@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -23,6 +25,7 @@
 
 
 @import './normalize';
+@import './Dropdown.scss';
 // @import './AddParametr.scss';
 // @import './page.scss';
 @import './authorization.scss';
