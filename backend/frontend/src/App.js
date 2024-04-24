@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import AuthorizationPage from "./pages/AuthorizationPage";
-import MainPage from "./pages/AuthorizationPage";
+import MainPage from "./pages/MainPage";
 import { Route, Routes } from "react-router-dom"
 // import AddParametr from "./pages/AddParametr";
 

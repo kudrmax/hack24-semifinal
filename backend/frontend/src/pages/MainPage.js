@@ -1,13 +1,13 @@
 import React from 'react'
 import axios from 'axios';
 
-import Dropdown from "./Dropdown";
+// import Dropdown from "./Dropdown";
 
 
 const MainPage = () => {
 
-    // const [generatorParametrs, setGeneratorParametrs] = React.useState(null);
-	// const [isLoading, setIsLoading] = React.useState(false);
+    const [generatorParametrs, setGeneratorParametrs] = React.useState(null);
+	const [isLoading, setIsLoading] = React.useState(false);
 
 	const getGeneratorParametrs = () => {
 		setIsLoading(true);
